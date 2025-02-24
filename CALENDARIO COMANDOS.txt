@@ -1,0 +1,13 @@
+Calendário de UC's - Murilo
+
+F4 =CONCATENAR($A$3;" ";$B$3)
+F5:F7=J4:J7=N4:N7=CONCATENAR($A$5;" ";$B$5)
+H4:H5=L4=CONCATENAR($A$4;" ";$B$4)
+H6:H7=L5:L7=CONCATENAR($A$6;" - ";$B$6)
+P3:P6=CONCATENAR($A$7;" ";$B$7) 
+
+C3=CONT.SE($F$3:$Q$7;F4)
+C4=CONT.SE($F$3:$Q$7;H4)
+C5=CONT.SE($F$3:$Q$7;F5)
+C6=CONT.SE($F$3:$Q$7;H6)
+C7=CONT.SE($F$3:$Q$7;P3)
